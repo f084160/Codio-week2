@@ -1,0 +1,10 @@
+# this code will calculate the milage claims for a company
+miles = int(input("How many miles? "))
+if miles<=10:
+  print("The company will be paying £" + str(miles*0.50) + "for your travel expenses")
+elif miles>10 and miles<=100:
+  print("The company will be paying £" + str(10*0.50+0.37*(miles-10)) + "for your travel expenses")
+else:
+    print("The company will be paying £" + str(10*0.50+90*0.37) + "for your travel expenses")
+
+    
