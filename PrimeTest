@@ -1,0 +1,13 @@
+# A number is prime if it is not divisible by any smaller primes.
+# I know that the first primes are 2, 3, 5, 7, 11.
+# I wonder if 13 is prime?
+n = 13
+divisible = (n%2==0) or (n%3==0) or (n%5==0) or (n%7==0) or (n%11==0)
+answer = not divisible
+print("Is 13 prime: " + str(answer))
+
+# So 13 is prime.  What about 15?
+n=15
+divisible = (n%2==0) or (n%3==0) or (n%5==0) or (n%7==0) or (n%11==0)
+answer = not divisible
+print("Is 15 prime: " + str(answer) )# Edit this line
